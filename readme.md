@@ -6,11 +6,17 @@ This is just a super-tiny Chrome extension, making Trello cards the same height 
 
 It's literally just adjusting min-height, and it only works on Trello URLs that have 'wdi' in it.
 
-![](https://trello-attachments.s3.amazonaws.com/553aad50b7ef93d81f752e4d/2612x1770/f295461760d84d921ba089dbd93e9d7a/Baseline_Unit_01%2C_Week_01.png)
+###### Before:
+![before](https://cloud.githubusercontent.com/assets/25366/7594599/b1ee342e-f896-11e4-94b2-9a4f21f2fd4c.png)
+ 
+###### After:
+![after](https://cloud.githubusercontent.com/assets/25366/7594602/b475b91a-f896-11e4-8d53-11507ae40a2b.png)
+
+A little cleaner, a little more predictable for a schedule. That's it.
 
 #### Installation Instructions
 - Download the **[latest release](https://github.com/micahbrich/ga-trello/releases)**
 - Open up ``chrome://extensions`` in your browser
 - Drag-n-drop the ``.crx`` onto the page to install it
 
-The end.
+That's all you have to do! Nothing too fancy.
