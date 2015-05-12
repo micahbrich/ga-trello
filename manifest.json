@@ -1,6 +1,6 @@
 {
   "name": "GA Trello",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "A few tiny extensions optimizing Trello for GA planning",
   "homepage_url": "https://trello.com",
