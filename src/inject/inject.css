@@ -13,15 +13,26 @@
 .day-column:nth-child(1),
 .day-column:nth-child(7) {
   opacity: 0.4;
-  display: none;
 }
 
 .days-of-week div:nth-child(1),
 .days-of-week div:nth-child(7) {
   opacity: 0.4;
+}
+
+
+/* If you want to hide Sat/Sun completely */
+
+/*.day-column:nth-child(1),
+.day-column:nth-child(7) {
+  display: none;
+}
+
+.days-of-week div:nth-child(1),
+.days-of-week div:nth-child(7) {
   display: none;
 }
 
 .day-column {
   width: 19% !important;
-}
+}*/
