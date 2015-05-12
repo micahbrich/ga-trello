@@ -9,3 +9,19 @@
 .u-fancy-scrollbar.calendar-drag-area.calendar-week {
   overflow-x: scroll;   
 }
+
+.day-column:nth-child(1),
+.day-column:nth-child(7) {
+  opacity: 0.4;
+  display: none;
+}
+
+.days-of-week div:nth-child(1),
+.days-of-week div:nth-child(7) {
+  opacity: 0.4;
+  display: none;
+}
+
+.day-column {
+  width: 19% !important;
+}
