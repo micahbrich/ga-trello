@@ -1,0 +1,11 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+.calendar-day-list div.list-card-details {
+  min-height: 90px;
+}
+
+.u-fancy-scrollbar.calendar-drag-area.calendar-week {
+  overflow-x: scroll;   
+}

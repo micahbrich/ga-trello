@@ -1,0 +1,42 @@
+{
+  "name": "GA Trello",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A few tiny extensions optimizing Trello for GA planning",
+  "homepage_url": "https://trello.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "https://trello.com/*, https://*.trello.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://trello.com/*wdi*"
+
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    }
+  ],
+  "page_action": {
+    "default_icon": {                    // optional
+      "16": "icons/icon16.png",           // optional
+      "19": "icons/icon19.png",           // optional
+      "48": "icons/icon48.png",            // optional
+      "128": "icons/icon128.png"            // optional
+    },
+    "default_title": "GA Trello Planner"      // optional; shown in tooltip
+  }
+}
