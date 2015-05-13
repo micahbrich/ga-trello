@@ -20,6 +20,11 @@
   opacity: 0.4;
 }
 
+.calendar-day .badge-state-due-past, 
+.calendar-day .badge-state-due-now,
+.calendar-day .badge-state-due-future {
+  display: none;
+}
 
 /* If you want to hide Sat/Sun completely */
 
