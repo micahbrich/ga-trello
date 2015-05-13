@@ -10,7 +10,7 @@ It's literally just adjusting min-height, and it only works on Trello URLs that 
 ![before](https://cloud.githubusercontent.com/assets/25366/7594599/b1ee342e-f896-11e4-94b2-9a4f21f2fd4c.png)
  
 ###### After:
-![after](https://cloud.githubusercontent.com/assets/25366/7594602/b475b91a-f896-11e4-8d53-11507ae40a2b.png)
+![after](https://cloud.githubusercontent.com/assets/25366/7616630/be8b2f2e-f95a-11e4-8926-e817871782c8.png)
 
 A little cleaner, a little more predictable for a schedule. That's it.
 
