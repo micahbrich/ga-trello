@@ -7,7 +7,7 @@
 }
 
 .u-fancy-scrollbar.calendar-drag-area.calendar-week {
-  overflow-x: scroll;   
+  overflow-x: scroll;
 }
 
 .day-column:nth-child(1),
@@ -20,9 +20,10 @@
   opacity: 0.4;
 }
 
-.calendar-day .badge-state-due-past, 
+.calendar-day .badge-state-due-past,
 .calendar-day .badge-state-due-now,
-.calendar-day .badge-state-due-future {
+.calendar-day .badge-state-due-future,
+.calendar-day .badge-state-due-soon {
   display: none;
 }
 
